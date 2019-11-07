@@ -57,6 +57,6 @@ Bref, toutes les actions de ce cours traiteront de la CLI et passeront par le te
 
 - Un peu comme Photoshop, la version GUI peut faire très peur avec ses milliers de boutons.
 - Pas besoin d'avoir moult softwares installés : il suffit d'un terminal et à toi la gloire !
-- Le but de cette semaine est de te donner les bases pour comprendre l'univers du développement. La version GUI n'étant pas utilisée par les devs, l'enseigner ne répond pas à notre vision : rendre l'univers du développement plus accessible.
+- Le but de cette semaine est de te donner les bases pour comprendre l'univers du développement. La version GUI n'étant pas utilisée par les devs, l'enseigner ne répond pas à notre vision : rendre l'univers du développement plus accessible. // rouge 
 
 
