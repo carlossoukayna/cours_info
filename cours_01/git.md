@@ -47,4 +47,16 @@ Nous allons maintenant voir :
 ## **3.1.1. Installation**
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique [téléchargements](https://git-scm.com/downloads), choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
+🚀 ## **ALERTE BONNE ASTUCE**
+
+Git est un logiciel **CLI** (Command Line Interface). Avec ce type de logiciels, tout passe par le terminal. Il s'oppose à **GUI**, Graphical User Interface.
+
+Exemple : lorsque tu utilises la GUI de ton explorateur de fichiers, tu double-cliques sur un fichier pour l'ouvrir. Avec la CLI, tu tapes la commande $ open nom_du_fichier dans ton terminal. Autre exemple : pour créer un dossier en GUI, tu cliques droit -> nouveau dossier en GUI. En CLI, tu tapes $ mkdir nom_dossier dans ton terminal.
+
+Bref, toutes les actions de ce cours traiteront de la CLI et passeront par le terminal avec les commandes que nous allons t'enseigner. Il existe [des versions GUI](https://git-scm.com/downloads/guis) pour Git, mais elles ne seront pas enseignées dans ce cours pour plusieurs raisons :
+
+- Un peu comme Photoshop, la version GUI peut faire très peur avec ses milliers de boutons.
+- Pas besoin d'avoir moult softwares installés : il suffit d'un terminal et à toi la gloire !
+- Le but de cette semaine est de te donner les bases pour comprendre l'univers du développement. La version GUI n'étant pas utilisée par les devs, l'enseigner ne répond pas à notre vision : rendre l'univers du développement plus accessible.
+
 
