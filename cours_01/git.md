@@ -44,7 +44,7 @@ Nous allons maintenant voir :
 - Comment faire une photographie (appelé "commit").
 - Comment revenir à des versions précédentes.
 
-## **3.1.1. Installation**
+### **3.1.1. Installation**
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique [téléchargements](https://git-scm.com/downloads), choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
 🚀 **ALERTE BONNE ASTUCE**
@@ -68,13 +68,13 @@ Le terminal devrait te renvoyer quelque chose comme : git version X.XX.X. S'il t
 
 Pour se servir de Git, c'est simple : il suffit de rentrer dans le terminal les commandes $ git truc ou git machin pour lui faire exécuter truc ou machin. Voyons maintenant la commande permettant d'initialiser un dossier git.
 
-## **3.1.2. Mise en place de ton dossier : git init et git status**
+### **3.1.2. Mise en place de ton dossier : git init et git status**
 Avant de commencer, il faut dire au logiciel Git : "ceci est un dossier de travail correspondant à un projet. Initialise Git dans ce dossier stp". En gros, tu vas initialiser un repository Git, ce qui te permettra de faire des photographies à l'instant T. Pour ceci, mets-toi dans un dossier de travail (avec la commande cd) et exécute la commande suivante :
 
 >$ git init
 >Initialized empty Git repository in /home/felix/Desktop/my_big_project/.git/
 
-⚠️ ALERTE ERREUR COMMUNE
+# ⚠️ ALERTE ERREUR COMMUNE
 
 Quand on débute dans le code, on a tendance à faire git init à la volée un peu partout. Il ne faut pas. Voici les types de dossiers dans lesquels tu dois initialiser des repository :
 
@@ -104,7 +104,7 @@ Et maintenant, quelle est la commande la plus importante quand on manipule git ?
 
 Le logiciel git te dit actuellement qu'il n'y a rien dans ton dossier, et donc rien à photographier ("nothing to commit"). Voyons maintenant comment faire un commit, justement.
 
-## **3.1.3. Faire un commit**
+### **3.1.3. Faire un commit**
 Un commit est une photographie à un instant T d'un projet. Pour faire court, tu vas prendre certains fichiers et les ajouter à la liste de ceux que tu veux photographier (cette liste peut aussi être vide). Ensuite, tu vas faire ta photographie en faisant git commit.
 
 **3.1.3.1. Ajouter un fichier avec git add**
@@ -124,7 +124,7 @@ Maintenant que tu as ajouté tes fichiers à la liste, tu as juste à les prendr
 
 Et voilà comment marche le commit !
 
-#🤓  **QUESTION RÉCURRENTE**
+# 🤓  **QUESTION RÉCURRENTE**
 
 **Mais dis-donc Jamy, pourquoi écrire git commit -m "mon commentaire" et pas git commit tout simplement ?**
 Excellente question. La commande git commit va ouvrir un fichier qui te demandera d'écrire un long message de commit avec Vim. Pas très pratique. Ainsi, comme l'option -l qui affiche les résultats de ls au format long, nous allons utiliser l'option -m qui permet d'écrire le message de commit directement dans la commande.
@@ -143,15 +143,15 @@ Normalement, le dossier est vide et contient uniquement le dossier de configurat
 
 D'abord, créons notre fichier index.html et ajoutons quelques lignes de HTML à l'intérieur :
 
-> <!DOCTYPE html>
-> <html>
-> <head>
-> <title>À la bonne table</title>
-> </head>
-> <body>
-> <h1>Ce est le site de mon restaurant !</h1>
-> </body>
-> </html>
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <title>À la bonne table</title>
+ </head>
+ <body>
+ <h1>Ce est le site de mon restaurant !</h1>
+ </body>
+ </html>
 
 Si tu fais la commande git status, ton terminal te dira ceci :
 
