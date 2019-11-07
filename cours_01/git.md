@@ -47,7 +47,7 @@ Nous allons maintenant voir :
 ## **3.1.1. Installation**
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique [téléchargements](https://git-scm.com/downloads), choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
-🚀  # **ALERTE BONNE ASTUCE**
+🚀# **ALERTE BONNE ASTUCE**
 
 Git est un logiciel **CLI** (Command Line Interface). Avec ce type de logiciels, tout passe par le terminal. Il s'oppose à **GUI**, Graphical User Interface.
 
