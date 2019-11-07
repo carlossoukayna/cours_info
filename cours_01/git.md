@@ -107,19 +107,21 @@ Le logiciel git te dit actuellement qu'il n'y a rien dans ton dossier, et donc r
 ## **3.1.3. Faire un commit**
 Un commit est une photographie à un instant T d'un projet. Pour faire court, tu vas prendre certains fichiers et les ajouter à la liste de ceux que tu veux photographier (cette liste peut aussi être vide). Ensuite, tu vas faire ta photographie en faisant git commit.
 
-3.1.3.1. Ajouter un fichier avec git add
+**3.1.3.1. Ajouter un fichier avec git add**
 Pour savoir quels fichiers git va prendre en photo, il faut les ajouter avec la commande git add :
 
-$ git add nom_de_ton_fichier
+>$ git add nom_de_ton_fichier
+
 Tu peux voir avec git status que ton fichier est bien ajouté.
 
-3.1.3.2. Faire un commit avec git commit
+**3.1.3.2. Faire un commit avec git commit**
 Maintenant que tu as ajouté tes fichiers à la liste, tu as juste à les prendre en photo avec la commande git commit :
 
-$ git commit -m "I made a change this is a comment why I did it"
-[master (root-commit) cfec956] change
- n files changed, m insertions(+), x deletions(-)
- create mode 100644 blabla
+>$ git commit -m "I made a change this is a comment why I did it"
+>[master (root-commit) cfec956] change
+ >n files changed, m insertions(+), x deletions(-)
+ >create mode 100644 blabla
+
 Et voilà comment marche le commit !
 
 
