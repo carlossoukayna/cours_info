@@ -72,11 +72,11 @@ Pour le cours, vous aurez besoin d’un ordinateur. Voici les différents logici
 
 - Un terminal
     
-    .Déjà installé sur macOS et Linux
+    . Déjà installé sur macOS et Linux
     
-    .Cygwin sur Windows
+    . Cygwin sur Windows
 
 - Un éditeur de texte
     
-    .Sublime Text ou Visual Studio Code
+    . Sublime Text ou Visual Studio Code
 
