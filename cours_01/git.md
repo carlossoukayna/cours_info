@@ -1,4 +1,4 @@
-## 1.introcduction :
+# 1.introcduction :
 As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :
 .
 
@@ -23,7 +23,7 @@ Maintenant, imagine devoir travailler en équipe sur des dossiers de code conten
 
 Comprends-tu maintenant pourquoi le gestionnaire de version appelé Git est un super logiciel, et pourquoi c'est un indispensable dans l'univers du code ? Dans cette ressource, nous verrons comment l'installer et s'en servir. Ensuite, nous verrons de quelle manière l'utiliser pour mettre ses dossiers en ligne avec GitHub (un équivalent de DropBox) pour te permettre de partager ton code et collaborer facilement avec d'autres devs.
 
-## **2. Contexte et historique**
+# **2. Contexte et historique**
 Tout comme il existe plusieurs explorateurs Internet (Firefox, Chrome, Safari, etc), il existe plein de logiciels de gestion de versions (SVN, BitKeeper, etc). Nous allons travailler avec Git pour ce cours car c'est de très très loin le plus connu et utilisé.
 
 Git a été créé en 2005 par Linus Torvald, qui a (entre autres) créé le système d'exploitation Linux.
@@ -36,8 +36,8 @@ Git est un logiciel de gestion de versions. C'est à dire, un logiciel permettan
 GitHub est un service en ligne qui utilise Git, et qui permet entre autres de :
 Mettre en ligne ses dossiers Git (dans ce qu'on appelle "un repository").
 Collaborer à plusieurs sur un même dossier Git.
-## **3. Le cours**
-# **3.1. Git**
+# **3. Le cours**
+## **3.1. Git**
 Nous allons maintenant voir :
 
 - Comment installer Git sur ton ordinateur.
@@ -45,7 +45,7 @@ Nous allons maintenant voir :
 - Comment faire une photographie (appelé "commit").
 - Comment revenir à des versions précédentes.
 
-# **3.1.1. Installation**
+## **3.1.1. Installation**
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique téléchargements, choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
 
