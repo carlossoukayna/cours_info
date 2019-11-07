@@ -19,4 +19,4 @@ Maintenant, imagine devoir travailler en équipe sur des dossiers de code conten
 - **Quand** : de quand cette modification date ?
 - **Pourquoi** : pourquoi cette modification existe-t-elle ?
 
-[coucou](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control)
+[clique ici](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control)
