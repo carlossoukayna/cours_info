@@ -45,7 +45,7 @@ Nous allons maintenant voir :
 - Comment faire une photographie (appelé "commit").
 - Comment revenir à des versions précédentes.
 
-#3.1.1. Installation#
+# **3.1.1. Installation**
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique téléchargements, choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
 
