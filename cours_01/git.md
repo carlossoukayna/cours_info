@@ -21,7 +21,7 @@ Maintenant, imagine devoir travailler en équipe sur des dossiers de code conten
 
 [clique ici](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control)
 
-Comprends-tu maintenant pourquoi le gestionnaire de version appelé [Git][https://git-scm.com] est un super logiciel, et pourquoi c'est un indispensable dans l'univers du code ? Dans cette ressource, nous verrons comment l'installer et s'en servir. Ensuite, nous verrons de quelle manière l'utiliser pour mettre ses dossiers en ligne avec GitHub (un équivalent de DropBox) pour te permettre de partager ton code et collaborer facilement avec d'autres devs.
+Comprends-tu maintenant pourquoi le gestionnaire de version appelé [Git](https://git-scm.com) est un super logiciel, et pourquoi c'est un indispensable dans l'univers du code ? Dans cette ressource, nous verrons comment l'installer et s'en servir. Ensuite, nous verrons de quelle manière l'utiliser pour mettre ses dossiers en ligne avec GitHub (un équivalent de DropBox) pour te permettre de partager ton code et collaborer facilement avec d'autres devs.
 
 # **2. Contexte et historique**
 Tout comme il existe plusieurs explorateurs Internet (Firefox, Chrome, Safari, etc), il existe plein de logiciels de gestion de versions (SVN, BitKeeper, etc). Nous allons travailler avec Git pour ce cours car c'est de très très loin le plus connu et utilisé.
