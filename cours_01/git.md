@@ -104,7 +104,7 @@ Et maintenant, quelle est la commande la plus importante quand on manipule git ?
 
 Le logiciel git te dit actuellement qu'il n'y a rien dans ton dossier, et donc rien à photographier ("nothing to commit"). Voyons maintenant comment faire un commit, justement.
 
-# **3.1.3. Faire un commit**
+## **3.1.3. Faire un commit**
 Un commit est une photographie à un instant T d'un projet. Pour faire court, tu vas prendre certains fichiers et les ajouter à la liste de ceux que tu veux photographier (cette liste peut aussi être vide). Ensuite, tu vas faire ta photographie en faisant git commit.
 
 3.1.3.1. Ajouter un fichier avec git add
