@@ -68,7 +68,7 @@ Le terminal devrait te renvoyer quelque chose comme : git version X.XX.X. S'il t
 
 Pour se servir de Git, c'est simple : il suffit de rentrer dans le terminal les commandes $ git truc ou git machin pour lui faire exécuter truc ou machin. Voyons maintenant la commande permettant d'initialiser un dossier git.
 
-# **3.1.2. Mise en place de ton dossier : git init et git status**
+## **3.1.2. Mise en place de ton dossier : git init et git status**
 Avant de commencer, il faut dire au logiciel Git : "ceci est un dossier de travail correspondant à un projet. Initialise Git dans ce dossier stp". En gros, tu vas initialiser un repository Git, ce qui te permettra de faire des photographies à l'instant T. Pour ceci, mets-toi dans un dossier de travail (avec la commande cd) et exécute la commande suivante :
 
 >$ git init
