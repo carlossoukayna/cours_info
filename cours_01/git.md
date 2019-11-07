@@ -68,38 +68,43 @@ Le terminal devrait te renvoyer quelque chose comme : git version X.XX.X. S'il t
 
 Pour se servir de Git, c'est simple : il suffit de rentrer dans le terminal les commandes $ git truc ou git machin pour lui faire exécuter truc ou machin. Voyons maintenant la commande permettant d'initialiser un dossier git.
 
-3.1.2. Mise en place de ton dossier : git init et git status
+# **3.1.2. Mise en place de ton dossier : git init et git status**
 Avant de commencer, il faut dire au logiciel Git : "ceci est un dossier de travail correspondant à un projet. Initialise Git dans ce dossier stp". En gros, tu vas initialiser un repository Git, ce qui te permettra de faire des photographies à l'instant T. Pour ceci, mets-toi dans un dossier de travail (avec la commande cd) et exécute la commande suivante :
 
-$ git init
-Initialized empty Git repository in /home/felix/Desktop/my_big_project/.git/
+>$ git init
+>Initialized empty Git repository in /home/felix/Desktop/my_big_project/.git/
+
 ⚠️ ALERTE ERREUR COMMUNE
 
 Quand on débute dans le code, on a tendance à faire git init à la volée un peu partout. Il ne faut pas. Voici les types de dossiers dans lesquels tu dois initialiser des repository :
 
-Un dossier contenant le code de ton projet Google.
-Un dossier contenant le projet d'un site internet.
-Un dossier contenant un projet clair et défini.
-Voici où tu ne dois pas faire git init :
+- Un dossier contenant le code de ton projet Google.
+- Un dossier contenant le projet d'un site internet.
+- Un dossier contenant un projet clair et défini.
 
-Le dossier qui contient tout ton ordinateur (exemple : exécuter git init en première ligne de commande de ton terminal).
-Ton dossier Desktop ou My Documents.
+Voici où **tu ne dois pas** faire git init :
+
+- Le dossier qui contient tout ton ordinateur (exemple : exécuter git init en première ligne de commande de ton terminal).
+- Ton dossier Desktop ou My Documents.
 Un dossier the_hacking_project contenant tous tes projets de THP.
-Un dossier qui contiendrait plusieurs dossiers de projets différents.
+- Un dossier qui contiendrait plusieurs dossiers de projets différents.
+
 En général la rule of thumbs est : un git init par projet. Si jamais tu as fait git init dans un dossier qui n'est pas bon, tu peux supprimer le dossier caché contenant toutes les informations de git en faisant :
 
-$ rm -rf .git
+>$ rm -rf .git
+
 Et maintenant, quelle est la commande la plus importante quand on manipule git ? Réponse : git status. Cette commande permet de te donner en un rien de temps l'état de ton projet git. Tu peux tester en entrant git status dans un repository git :
 
-$ git status
-On branch master
+>$ git status
+>On branch master
 
-No commits yet
+>No commits yet
 
-nothing to commit (create/copy files and use "git add" to track)
+>nothing to commit (create/copy files and use "git add" to track)
+
 Le logiciel git te dit actuellement qu'il n'y a rien dans ton dossier, et donc rien à photographier ("nothing to commit"). Voyons maintenant comment faire un commit, justement.
 
-3.1.3. Faire un commit
+# **3.1.3. Faire un commit**
 Un commit est une photographie à un instant T d'un projet. Pour faire court, tu vas prendre certains fichiers et les ajouter à la liste de ceux que tu veux photographier (cette liste peut aussi être vide). Ensuite, tu vas faire ta photographie en faisant git commit.
 
 3.1.3.1. Ajouter un fichier avec git add
