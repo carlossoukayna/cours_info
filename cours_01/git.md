@@ -129,7 +129,7 @@ Et voilà comment marche le commit !
 **Mais dis-donc Jamy, pourquoi écrire git commit -m "mon commentaire" et pas git commit tout simplement ?**
 Excellente question. La commande git commit va ouvrir un fichier qui te demandera d'écrire un long message de commit avec Vim. Pas très pratique. Ainsi, comme l'option -l qui affiche les résultats de ls au format long, nous allons utiliser l'option -m qui permet d'écrire le message de commit directement dans la commande.
 
-## **3.1.3.3. Exemple avec un petit projet**
+**3.1.3.3. Exemple avec un petit projet**
 Comme il n'est pas aisé d'expliquer les commits, je te propose un petit pas à pas pour t'aider à comprendre la notion de git ☺ Nous allons prendre l'exemple d'un site de restaurant.
 
 Commence par créer un dossier restaurant_website, puis mets-toi dans le dossier avec ton terminal.
@@ -320,7 +320,7 @@ Puis si tu fais git status, git te dira que index.html a été modifié mais n'e
 - C'est extrêmement puissant pour collaborer à plusieurs sur un même dossier : on sait qui a fait quoi, quand et pourquoi.
 - La capacité à pouvoir facilement revenir en arrière (ce que nous allons étudier dans la partie suivante).
 
-## **3.1.4. Revenir en arrière**
+### **3.1.4. Revenir en arrière**
 Comme nous l'avons vu, Git permet non seulement de faire des sauvegardes propres de ses projets, mais aussi de revenir en arrière facilement. Pour remonter le temps, ça se passe en deux étapes :
 
 - Déterminer la sauvegarde où je veux revenir.
@@ -328,7 +328,7 @@ Comme nous l'avons vu, Git permet non seulement de faire des sauvegardes propres
    .Est-ce à titre purement indicatif, juste pour regarder ce qui a été fait avant ?
    .S'agit-il d'un retour en arrière définitif ?
 
-## **3.1.4.1. Regarder l'historique des versions**
+ **3.1.4.1. Regarder l'historique des versions**
 La commande git log permet de connaitre les commits faits sur le projet. Par exemple pour ton projet de restaurant, git log ressemblerait à ceci :
 
 > $ git log
@@ -361,13 +361,13 @@ Tu peux voir la liste des commits contenant les informations importantes :
 
 Le code 100d6f07dbf4cfb9103b3819e64432186750a1a2 est le SHA du commit. C'est son identifiant unique. C'est ce qui te servira pour le retour en arrière.
 
-## **3.1.4.2. Revenir en arrière**
+ **3.1.4.2. Revenir en arrière**
 Il y a deux façons de revenir en arrière :
 
 - La première est à titre purement indicatif, et te servira seulement à observer un état précédent
 - La seconde est un retour définitif en mode "je veux revenir à tel endroit pour retravailler à partir de là"
 
-## **3.7.1. Retour en arrière à titre purement indicatif**
+### **3.7.1. Retour en arrière à titre purement indicatif**
 Imaginons que tu veux juste jeter un oeil sur un fichier à un instant T. Pour ceci, tu rentrerais la commande :
 
 > $ git checkout SHA
@@ -394,14 +394,14 @@ git checkout ne marche que si tu n'as aucune modification non sauvegardée. Si t
 
 Dans ce cas, 2 possibilités . faire une sauvegarde (== faire un commit), ou tout effacer pour revenir au commit d'avant.
 
-## **3.7.2. Revenir en arrière définitivement**
+### **3.7.2. Revenir en arrière définitivement**
 Tu peux revenir en arrière définitivement avec la commande git reset qui s'utilise comme ceci :
 
 > $ git reset --hard SHA
 
 (en remplaçant "SHA" par le code reçu lors du git log)
 
-## 🚀 **ALERTE BONNE ASTUCE**
+# 🚀 **ALERTE BONNE ASTUCE**
 
 La commande git reset est aussi un bon moyen pour effacer son travail actuel et revenir au commit précédent. Imagine par exemple que tu es en train de travailler sur la diapo de Jean-Michel. En plein milieu, tu te dis que ton approche est mauvaise et tu as soudain envie d'effacer tout ce que tu as fait jusqu'à présent. Plutôt que de faire CTRL + Z plein de fois, tu peux rentrer la commande suivante :
 
@@ -409,7 +409,7 @@ La commande git reset est aussi un bon moyen pour effacer son travail actuel et 
 
 Et hop ! Tu reviens à ton dernier commit. Très pratique pour tester des concepts à la volée, ou quand tu n'as pas envie de commit les changements que tu viens de faire.
 
-# **3.2. GitHub**
+## **3.2. GitHub**
 Maintenant que tu es un champion du commit, nous allons voir comment mettre son code en ligne pour en faire profiter la terre entière, et pouvoir collaborer à plusieurs sur un projet.
 
 Grâce à git et GitHub, tu peux "push" ton code en ligne en quelques lignes de commandes à peine. Dans cette partie, nous verrons :
@@ -418,7 +418,7 @@ Grâce à git et GitHub, tu peux "push" ton code en ligne en quelques lignes de 
 - La notion de remote pour Git : comment lier ton repository local à un repository en ligne.
 - les deux commandes maitresses : git pull et git push.
 
-## **3.2.1. C'est quoi GitHub**
+### **3.2.1. C'est quoi GitHub**
 [GitHub](https://github.com) est une plateforme permettant deux choses très importantes dans l'univers du code :
 
 - Pouvoir lier un repository Git local (sur ton ordinateur) à un repository que tu as créé en ligne sur la plateforme Github (un peu comme avec DropBox). Nous allons voir dans cette ressource comment le faire.
@@ -428,7 +428,7 @@ Un grand nombre d'entreprises utilisent GitHub pour travailler, ainsi qu'une gro
 
 Va sur GitHub et créé un compte. Ensuite, va [créer un repository](http://cours-upec.surge.sh/lessons/git.html), ce qui devrait te renvoyer à l'écran suivant :
 
-IMAGE A RAJUTER
+IMAGE 2
 
 Ok, décortiquons tout ça calmement :
 
@@ -440,11 +440,11 @@ Ok, décortiquons tout ça calmement :
 
 Si tu as bien tout fait, tu devrais avoir cet écran :
 
-IMAGE A RAJOUTER
+IMAGE 3
 
 Laisse-moi te traduire ces lignes bizarres en quelque chose de plus compréhensible : en gros, GitHub te dit que ton repository est prêt et qu'il est vide pour le moment. Il te donne même les commandes pour le lier à un repository local, à coup de git remote add origin git@github.com:username/le_nom_de_ton_projet.git. Nous allons voir ensemble la notion de remote dans la prochaine partie.
 
-## **3.2.2. La notion de remote**
+### **3.2.2. La notion de remote**
 Qu'est-ce qu'un "remote repository" ? C'est une version à distance de ton repo Git, un peu comme une copie stockée ailleurs (souvent sur Internet). Tu peux facilement faire "local -> remote" ou de "remote  -> local" avec Git.
 
 Avec git remote, tu peux facilement ajouter des remotes, voir la liste des remotes, enlever des remotes.
@@ -466,7 +466,7 @@ Continuons l'exemple de notre restaurant. Dans l'écran de ton repo vide (voir i
 > origin  git@github.com:felhix/ton_super_nom.git (fetch)
 > origin  git@github.com:felhix/ton_super_nom.git (push)
 
-## **3.2.3. Git push**
+### **3.2.3. Git push**
 La commande git push va envoyer ton code stocké en local vers un remote de ton choix. Elle s'utilise en faisant : $ git push nom_du_remote nom_de_la_branche. Si tu veux push ta branche "master" vers la remote "origin", tu feras donc :
 
 > $ git push origin master
@@ -475,19 +475,19 @@ Ou alors, si tu veux push ta branche "other_branch" vers la remote "heroku" tu f
 
 > $ git push heroku other_branch
 
-## 🤓 **QUESTION RÉCURRENTE**
+# 🤓 **QUESTION RÉCURRENTE**
 
 **Mais dis donc Jamy, c'est quoi une branche ?**
 
 Ce n'est pas l'objet du cours, mais je vais faire un petit aparté à ce sujet. Une branche, grosso modo, est une bifurcation de ton projet sur laquelle tu vas travailler de manière indépendante. Grâce à cette fonctionnalité super pratique, tu peux travailler sur une version parallèle de ton projet et la re-fusionner plus tard, quand tu seras content des modifications apportées. Jusqu'à maintenant, tu as seulement fait des commits sur la branche Master. Mais tu verras, la plupart des fonctionnalités te demanderont de travailler sur une branche plutôt que de faire des commits directement sur Master, afin d'éviter d'exposer à tes utilisateurs des fonctionnalités non terminées.
 
- IMAGE 3
+ IMAGE 4
  
 Prenons l'exemple de notre site. Tu voudrais reprendre les couleurs du menu, ce qui représente plusieurs jours de travail. Pour ceci, tu voudrais créer une branche nommée new_design sur laquelle tu vas faire plusieurs commits, puis montrer le design à ton client. Quand tu seras content, tu n'auras plus qu'à fusionner la branche new_design avec la branche master et à toi la gloire !
 
 Pour le moment, nous n'allons pas utiliser les branches. Sache juste que ce système existe, et que tu vas travailler sur la branche principale nommée master.
 
-## 🤓 **QUESTION RÉCURRENTE**
+# 🤓 **QUESTION RÉCURRENTE**
 
 **Je viens d'initialiser un repo mais quand je push sur GitHub, certains dossiers de mon repo n'apparaissent pas (mais le reste si). Pourquoi?**
 
@@ -513,7 +513,7 @@ Oh mon dieu, Fatal !! En général, les erreurs sont en mode "error bug". Mais l
 Bref, je ne te le cache pas : les erreurs, tu en auras. La clé de succès de The Hacking Project est justement ta capacité à bien les analyser, et à faire les bonnes recherches Google qui résoudront ton problème.
 
 # **4. Points importants à retenir**
-## **4.1. Les commandes pratiques**
+### **4.1. Les commandes pratiques**
 Voici un récap des commandes de base :
 
 - $ git init : il faut TOUJOURS commencer par initialiser git avec cette commande. C'est elle qui transforme ton répertoire courant en repository git.
@@ -521,7 +521,7 @@ Voici un récap des commandes de base :
 - $ git commit -m "ton commentaire" : crée un commit (commit = sauvegarde suivie d'un commentaire).
 - $ git status : te donne le statut actuel de git.
 
-## **4.2. Lire l'historique**
+### **4.2. Lire l'historique**
 $ git log : permet de voir l'historique de tous les commits, qui sont rangés par :
 
 - SHA : liste de chiffres et lettres qui identifient de façon unique le commit.
@@ -531,7 +531,7 @@ $ git log : permet de voir l'historique de tous les commits, qui sont rangés pa
 
 Pour quitter le log, il faut appuyer sur Q.
 
-## **4.3. Se positionner sur un commit donné**
+### **4.3. Se positionner sur un commit donné**
 Imaginons que l'on veuille vérifier un truc sur un vieux commit. On va utiliser la commande $ git checkout, utilisée comme ceci :
 
 - $ git checkout 45581cebdd2cae494f80f44010af9e4a86c9b8fa : dit à git de se positionner sur ce SHA précis. Attention à ne pas faire de modifications !
