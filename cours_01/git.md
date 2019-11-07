@@ -18,4 +18,5 @@ Maintenant, imagine devoir travailler en équipe sur des dossiers de code conten
 - **Qui** : qui est responsable de cette modification ?
 - **Quand** : de quand cette modification date ?
 - **Pourquoi** : pourquoi cette modification existe-t-elle ?
-[clique ici] (image option 1]
+
+[coucou](image option 1)
