@@ -20,6 +20,7 @@ En gros, c'est souvent le bordel dans le monde des moldus du code. Ces derniers 
 
 Maintenant, imagine devoir travailler en équipe sur des dossiers de code contenant des milliers de fichiers. Créer des index_VERSIONNUMBER.html à tire-larigot n'est clairement pas la meilleure solution. L'idéal serait d'avoir un logiciel capable de faire des photographies à un instant T d'un dossier, et de préciser pour chacune de ces sauvegardes la réponse aux 4 questions suivantes :
 
-
-
-[coucou](https://upload.wikimedia.org/wikipedia/commons/8/8a/Avion_Air_France%2C_20_novembre_2013%2C_Tunis_01.jpg)
+- **Quoi** : quels fichiers ont été modifiés dans cette photographie ?
+- **Qui** : qui est responsable de cette modification ?
+- **Quand** : de quand cette modification date ?
+- **Pourquoi** : pourquoi cette modification existe-t-elle ?
