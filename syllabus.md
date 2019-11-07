@@ -1,9 +1,9 @@
 ### **Informations de base**
-· **Intitulé de la formation** : Initiation au code pour créer son propre site web
+·  **Intitulé de la formation** : Initiation au code pour créer son propre site web
 
-· **Volume horaire** : Entre 20h et 30h de projets
+·  **Volume horaire** : Entre 20h et 30h de projets
 
-· **Enseignant** : vous-mêmes pour les projets
+·  **Enseignant** : vous-mêmes pour les projets
 
 ### **Description du cours**
 Avec The Hacking Project, devenez un boucanier et découvrez les bases de l’informatique pour lancer votre site Internet !
