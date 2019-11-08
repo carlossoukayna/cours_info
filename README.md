@@ -21,7 +21,7 @@ Tout d’abord nous devons créer un repository GitHub, puis le lier à un dossi
 
 ## 3.Contribution :
 
-Nous sommes deux élèves à avoir contribués en binôme. Nous avons appris à nous connaitre pour pouvoir faire ce projet ensemble en peer-learning. La première personne est Carlos Velez Posoda, éleve en L2 AEI-AGE  C     .La seconde personne est Soukayna Talha, élève en L2 AEI-AGE C15.
+Nous sommes deux élèves à avoir contribués en binôme. Nous avons appris à nous connaitre pour pouvoir faire ce projet ensemble en peer-learning. La première personne est Carlos Velez Posoda, éleve en L2 AEI-AGE  C10    .La seconde personne est Soukayna Talha, élève en L2 AEI-AGE C15.
 
 ## 4.Contexte :
 
